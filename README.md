@@ -1,27 +1,74 @@
-# PersonalFinance
+# Personal Finance Web App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
+Este é um web app de finanças pessoais desenvolvido em Angular. O aplicativo permite que os usuários gerenciem suas receitas e despesas, visualizem suas transações em um calendário, e gerem relatórios financeiros detalhados.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Autenticação de Usuário
 
-## Code scaffolding
+- [ ] Registro
+- [ ] Login
+- [ ] Logout
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Gerenciamento de Transações
 
-## Build
+- [ ] Adicionar receita
+- [ ] Adicionar despesa
+- [ ] Editar transação
+- [ ] Excluir transação
+- [ ] Listar transações
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Visualização no Calendário
 
-## Running unit tests
+- [ ] Mostrar transações no calendário
+- [ ] Filtrar transações por data
+- [ ] Visualizar detalhes da transação no calendário
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Relatórios e Gráficos
 
-## Running end-to-end tests
+- [ ] Gráficos de receitas e despesas
+- [ ] Relatório mensal
+- [ ] Relatório anual
+- [ ] Comparação de categorias
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Categorias de Transações
 
-## Further help
+- [ ] Adicionar categorias
+- [ ] Editar categorias
+- [ ] Excluir categorias
+- [ ] Categorizar transações
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Metas Financeiras
+
+- [ ] Definir metas de economia
+- [ ] Monitorar progresso das metas
+
+## Estrutura do Projeto
+
+### Módulos
+
+- `AuthModule`
+- `DashboardModule`
+- `TransactionsModule`
+- `ReportsModule`
+- `CalendarModule`
+
+### Componentes
+
+- `HeaderComponent`
+- `SidebarComponent`
+- `LoginComponent`
+- `RegisterComponent`
+- `TransactionFormComponent`
+- `TransactionListComponent`
+- `CalendarComponent`
+- `ReportComponent`
+- `GoalComponent`
+
+### Serviços
+
+- `AuthService`
+- `TransactionService`
+- `CategoryService`
+- `ReportService`
+- `GoalService`
