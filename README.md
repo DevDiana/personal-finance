@@ -1,4 +1,4 @@
-# Personal Finance Web App
+# Personal Finance Web App e em breve mobile
 
 Este é um web app de finanças pessoais desenvolvido em Angular. O aplicativo permite que os usuários gerenciem suas receitas e despesas, visualizem suas transações em um calendário, e gerem relatórios financeiros detalhados.
 
